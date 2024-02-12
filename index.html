@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetics Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <navbar>
+      <div class="navbar__container">
+        <div class="navbar__box">
+          <div class="navbar__wrapper">
+            <div class="navbar__item active">ALL</div>
+          </div>
+          <div class="navbar__wrapper">
+            <div class="navbar__item">BEST SELLERS</div>
+          </div>
+          <div class="navbar__wrapper">
+            <div class="navbar__item">NURSERY/KID</div>
+          </div>
+          <div class="navbar__wrapper">
+            <div class="navbar__item">HOME DECOR</div>
+          </div>
+          <div class="navbar__wrapper">
+            <div class="navbar__item">CHRISTIAN QUOTE</div>
+          </div>
+          <div class="navbar__wrapper">
+            <div class="navbar__item">INSPIRATIONAL QUOTES</div>
+          </div>
+          <div class="navbar__wrapper">
+            <div class="navbar__item">LOVE QUOTES/GIFT IDEAS</div>
+          </div>
+        </div>
+      </div>
+    </navbar>
+    <main>
+      <div class="main__container">
+        <div class="main__box">
+          <div class="main__wrapper1">
+            <img src="images/mainpic1.png" alt="" />
+          </div>
+          <div class="main__wrapper2">
+            <div class="main__wrapper2_content">
+              <h1>Beauty & Skin care</h1>
+              <p>
+                Sunt autem vel illum, qui blanditiis praesentium voluptatum
+                adipiscendarum.
+              </p>
+              <button class="btn1"><a href="/">DISCOVER</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Best Sellers Section -->
+    <div class="bs__container">
+      <div class="bs__box1">
+        <div class="bs__box1_wrapper">
+          <div class="bs__box1_contents_wrapper">
+            <div class="bs__box1_contents">
+              <label for="minPrice">Min Price:</label>
+              <input
+                type="number"
+                id="minPrice"
+                placeholder="$$$"
+                style="font-style: italic"
+              />
+            </div>
+          </div>
+
+          <div class="bs__box1_contents_wrapper">
+            <div class="bs__box1_contents">
+              <label for="maxPrice">Max Price:</label>
+              <input
+                type="number"
+                id="maxPrice"
+                placeholder="$$$"
+                style="font-style: italic"
+              />
+            </div>
+          </div>
+
+          <div class="bs__box1_contents_wrapper">
+            <div class="bs__box1_contents">
+              <label for="productName">Product Name:</label>
+              <input
+                type="text"
+                id="productName"
+                placeholder="Ex: Face Wash"
+                style="font-style: italic"
+              />
+            </div>
+          </div>
+
+          <div class="bs__box1_contents_wrapper">
+            <div class="bs__box1_contents">
+              <label for="sortby">Sort by:</label>
+              <select id="sortby">
+                <option value="Default">Default</option>
+                <option value="Latest">Latest</option>
+                <option value="PriceLowToHigh">Price: Low to High</option>
+                <option value="PriceHighToLow">Price: High to Low</option>
+                <option value="RatingLowToHigh">Rating: Low to High</option>
+                <option value="RatingHighToLow">Rating: High to Low</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="bs__box1_contents_wrapper">
+            <div class="bs__box1_contents">
+              <label for="category">Category:</label>
+              <select id="category">
+                <option value="all">All Categories</option>
+                <option value="skincare">Skincare</option>
+                <option value="haircare">Haircare</option>
+                <option value="bodycare">Bodycare</option>
+                <option value="eyecare">Eyecare</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="bs__box1_contents_wrapper">
+            <div class="bs__box1_contentsBtn">
+              <button class="btn2" id="filterProductsBtn">Search</button>
+              <button class="btn3" id="resetFilters">Clear All</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bs__box2_wrapper">
+        <div class="bs__box2" id="bs__box2"></div>
+        <div class="pagination">
+          <button class="btn7" id="firstBtn">First</button>
+          <button class="btn4" id="prevBtn">Prev</button>
+          <ul id="pagination" class="pagination">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <button class="btn5" id="nextBtn">Next</button>
+          <button class="btn6" id="lastBtn">Last</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

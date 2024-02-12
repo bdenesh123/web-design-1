@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Moisturizing Cream",
+    "category": "Skincare",
+    "price": 29.99
+  },
+  {
+    "name": "Shampoo",
+    "category": "Haircare",
+    "price": 12.99
+  },
+  {
+    "name": "Body Lotion",
+    "category": "Bodycare",
+    "price": 19.99
+  },
+  {
+    "name": "Anti-Wrinkle Serum",
+    "category": "Eyecare",
+    "price": 39.99
+  },
+  {
+    "name": "Sunscreen SPF 50",
+    "category": "Skincare",
+    "price": 15.99
+  },
+  {
+    "name": "Conditioner",
+    "category": "Haircare",
+    "price": 14.99
+  },
+  {
+    "name": "Hand Cream",
+    "category": "Bodycare",
+    "price": 9.99
+  },
+  {
+    "name": "Eye Cream",
+    "category": "Eyecare",
+    "price": 29.99
+  },
+  {
+    "name": "Cleansing Gel",
+    "category": "Skincare",
+    "price": 18.99
+  },
+  {
+    "name": "Hair Mask",
+    "category": "Haircare",
+    "price": 24.99
+  },
+  {
+    "name": "Body Wash",
+    "category": "Bodycare",
+    "price": 16.99
+  },
+  {
+    "name": "Anti-Dark Circle Serum",
+    "category": "Eyecare",
+    "price": 34.99
+  },
+  {
+    "name": "Facial Toner",
+    "category": "Skincare",
+    "price": 22.99
+  },
+  {
+    "name": "Leave-in Conditioner",
+    "category": "Haircare",
+    "price": 11.99
+  },
+  {
+    "name": "Body Scrub",
+    "category": "Bodycare",
+    "price": 27.99
+  },
+  {
+    "name": "Revitalizing Eye Mask",
+    "category": "Eyecare",
+    "price": 49.99
+  },
+  {
+    "name": "Acne Treatment Cream",
+    "category": "Skincare",
+    "price": 25.99
+  },
+  {
+    "name": "Hair Serum",
+    "category": "Haircare",
+    "price": 17.99
+  },
+  {
+    "name": "Hand Wash",
+    "category": "Bodycare",
+    "price": 8.99
+  },
+  {
+    "name": "Under Eye Gel",
+    "category": "Eyecare",
+    "price": 31.99
+  }
+]
